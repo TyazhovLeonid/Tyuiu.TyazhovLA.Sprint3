@@ -4,15 +4,19 @@ namespace Tyuiu.TyazhovLA.Sprint3.Task6.V9.Lib
 {
     public class DataService : ISprint3Task6V9
     {
+
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int i, z;
+            int x,d;
             int count = 0;
-            for (i = startValue; i <= stopValue; i++)
+            for (x = startValue; x <= stopValue; x++)
             {
-                for (z = 1; z <= i; z++) ;
+                for (d = 1; d <= x; d++)
                 {
-                    if (i % z == 0) count += 1;
+                    if (x % d == 0) 
+                    { 
+                        count = count + 1;
+                    }
                 }
             }
             return count;

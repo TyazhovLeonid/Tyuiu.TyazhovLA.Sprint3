@@ -8,9 +8,9 @@ namespace Tyuiu.TyazhovLA.Sprint3.Task6.V9.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int x = 10; int y = 19;
+            int x = 19; int y = 30;
             var res = ds.GetSumTheDivisors(x, y);
-            Assert.AreEqual(res, res);
+            Assert.AreEqual(53, res);
         }
     }
 }

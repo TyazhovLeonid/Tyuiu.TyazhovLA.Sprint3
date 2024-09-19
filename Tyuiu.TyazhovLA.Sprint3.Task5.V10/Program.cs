@@ -23,8 +23,8 @@ namespace Tyuiu.TyazhovLA.Sprint3.Task5.V10
             Console.WriteLine("***************************************************************************");
             int x = Convert.ToInt32(Console.ReadLine());
             int startValue1= Convert.ToInt32(Console.ReadLine());
-            int startValue2 = Convert.ToInt32(Console.ReadLine());
             int stopValue1 = Convert.ToInt32(Console.ReadLine());
+            int startValue2 = Convert.ToInt32(Console.ReadLine());
             int stopValue2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");

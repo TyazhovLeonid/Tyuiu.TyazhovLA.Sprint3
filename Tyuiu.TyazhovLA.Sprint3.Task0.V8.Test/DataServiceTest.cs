@@ -11,7 +11,7 @@ namespace Tyuiu.TyazhovLA.Sprint3.Task0.V8.Test
             double value = 0.25;
             int startValue = 1, stopValue = 10;
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
-            Assert.AreEqual(res, res);
+            Assert.AreEqual(0.019, res);
         }
     }
 }

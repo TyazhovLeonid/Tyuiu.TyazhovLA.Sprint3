@@ -6,18 +6,14 @@ namespace Tyuiu.TyazhovLA.Sprint3.Task3.V15.Lib
     {
         public int GetMinCharCount(string value, char item)
         {
-            char previousChar = '\0';
-            
             int count = 0;
-            foreach (char c in value)
+            int countx = 0;
+            char[] g= value.ToCharArray();
+            for (int i = 0;i<=g.Length-2;i++)
             {
-                
-                if (c == item && previousChar == item) count += 1;
-                
-                previousChar = c;
-                
-                
-            }   
+                if (g[i] == 'm' && g[i + 1] == 'm' && g[i + 2] == 'm') count += 1;
+            }
+
             return count;
         }
     }

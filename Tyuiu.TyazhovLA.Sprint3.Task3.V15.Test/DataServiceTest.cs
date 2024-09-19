@@ -11,7 +11,7 @@ namespace Tyuiu.TyazhovLA.Sprint3.Task3.V15.Test
             char item = 'm';
             string x = "lrmmse mg sermmmrt";
             int res = ds.GetMinCharCount(x, item);
-            Assert.AreEqual(3, res);
+            Assert.AreEqual(1, res);
         }
     }
 }

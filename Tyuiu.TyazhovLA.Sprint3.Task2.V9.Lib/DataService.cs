@@ -6,7 +6,7 @@ namespace Tyuiu.TyazhovLA.Sprint3.Task2.V9.Lib
     {
         public double GetSumSeries(int value, int startValue, int stopValue)
         {
-            double res = 1;
+            double res = 0;
             do
             {
                 res += Math.Pow(1 / (Math.Pow(value, startValue)), 2);
